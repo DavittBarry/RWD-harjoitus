@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RWD-harjoitus</title>
-    <link rel="stylesheet" href="css/styles.css" media="screen">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="container container-header">
             <img class="logo" src="images/docendo-discimus.svg" alt="Docendo Discimus" />
             <button type="button" id="menuBtn">Menu</button>
         </div>
@@ -24,16 +24,59 @@
             </ul>
         </nav>
     </header>
+    <div class="img-main">
+        <h1>Lorem ipsum dolor sit amet consectetur!</h1>
+    </div>
     <div class="container">
         <main>
             <h1>Jotain ipsum dolorista tai jotain</h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto laboriosam blanditiis nihil et quod repellendus alias eligendi cumque ad ipsam nobis, nostrum deleniti perspiciatis voluptatem porro praesentium consequuntur necessitatibus quo!
             </p>
+
+            <div class="alert hidden-mobile">
+                Tämä on piilotettu mobiilissa.
+            </div>
+
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, pariatur vero! Itaque eos, voluptatum accusamus assumenda minima obcaecati delectus, consectetur dolores, veniam autem sapiente dolorem qui impedit beatae! Nihil, quibusdam?
             </p>
+
+            <div class="alert hidden-desktop">
+                Tämä on piilotettu desktopilla. 
+            </div>
+
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, est libero eos praesentium illo officiis inventore reprehenderit officia voluptatibus nulla consectetur expedita beatae tempora saepe sit dolor id consequatur tenetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit suscipit rem dolor provident, eos voluptates cum a, accusantium autem eius ex, quidem animi nisi quia quae ducimus maxime minima quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit magnam provident modi? Nobis pariatur in ducimus nulla culpa ullam quam, expedita enim? Molestias, ducimus dignissimos provident consectetur voluptates corrupti officiis.</p>
+
+            <h2>Rinnakkaiset alueet</h2>
+
+            <div class="flex-container">
+                <div >
+                    <figure>
+                        <img src="images/test-img-1.jpg" alt="Test img 1" />
+                        <figcaption>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias ipsam rem eum minus doloremque quas aspernatur explicabo, omnis ratione facilis ad perferendis laudantium vero. Quis id dignissimos sed perspiciatis excepturi!</figcaption>
+                    </figure>
+                
+                    
+                </div>
+                <div >
+                    <figure>
+                        <img src="images/test-img-2.jpg" alt="Test img 2" />
+                        <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, placeat dolore dolor perspiciatis quam porro dignissimos illo enim nihil veniam libero, corrupti quasi cupiditate. Est incidunt autem perferendis quam eos!</figcaption>
+                    </figure>
+                
+                    
+                </div>
+                <div >
+                    <figure>
+                        <img src="images/test-img-3.jpg" alt="Test img 3" />
+                        <figcaption>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, nostrum alias modi esse non dignissimos doloribus minus veritatis a dolorem minima possimus, eveniet totam, quisquam vel molestias aliquam unde distinctio?</figcaption>
+                    </figure>
+                
+                    
+                </div>
+            </div>
+
         </main>
     </div> <!-- /.container -->
     <footer>
